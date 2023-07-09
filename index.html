@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            background-color: rgb(22, 80, 103);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            text-decoration: none;
+            color: yellow;
+            font-size: large;
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 50px 0;
+            align-items: center;
+        }
+
+        .firstsection>div {
+            width: 50%;
+        }
+
+        .leftsection {
+            margin: 7%;
+            font-size: 3rem;
+        }
+
+        .leftsection .btn {
+            padding: 13px;
+            background-color: #3822a1;
+            color: white;
+            border: 2px solid white;
+            border-radius: 10px;
+            font size: 20px;
+            cursor: pointer;
+        }
+
+        .rightsection img {
+            width: 70%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: rgb(170, 108, 228);
+        }
+
+        .text-gray {
+            color: grey;
+        }
+
+        .text-green {
+            color: greenyellow;
+        }
+
+        .text-red {
+            color: red;
+        }
+
+        .text-yellow {
+            color: yellow;
+        }
+
+        .text-blue {
+            color: rgb(14, 138, 220);
+        }
+
+        .text-light {
+            color: lightgreen;
+        }
+
+        #element {
+            color: rgb(170, 108, 228);
+        }
+
+        .thirdsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 100vh;
+        }
+
+
+        .thirdsection .box {
+            background: white;
+            width: 79vw;
+            height: 1px;
+            margin: 200px -40px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .thirdsection .vertical {
+            background: white;
+            width: 1px;
+            height: 90px;
+            margin: 0px 150px;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 70vh;
+        }
+
+        .secondsection .aboutme {
+
+            justify-content: last baseline;
+            margin: 15px 15px;
+            width: 65vw;
+            text-align: left;
+            font-size: 22px;
+
+        }
+
+        .image-top {
+            width: 100px;
+            height: 100px;
+            position: relative;
+            top: -120px;
+            left: -40px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: -5px;
+            width: 120px;
+            left: -59px;
+            font-size: 26px;
+            text-align: center;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 14px;
+            left: -61px;
+            width: 190px;
+            color: gray;
+            font-size: 16px;
+
+        }
+
+        main hr {
+            border: 0;
+            background: rgb(94 52 152);
+            height: 1px;
+            margin: 80px 80px;
+        }
+
+        .thirdsection .hr {
+            border: 0;
+            background: rgb(94 52 152);
+            height: 1px;
+            margin: 80px 80px;
+        }
+
+        .secondsection h1 {
+            font-size: 2rem;
+        }
+
+        footer {
+            background-color: rgb(26 21 67);
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 68px 120px;
+            justify-content: space-evenly;
+        }
+
+        .footer>div {
+            margin: 0px 30px;
+            width: 250px;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        footer .footer-rights {
+            padding: 12px;
+            text-align: center;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+
+            <div class="left">Sahil's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="firstsection">
+
+            <div class="leftsection">Hi...!
+                <div>I am <span class="purple"> Sahil Kadawla </span> , a</div>
+
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Download resume</button>
+                    <button class="btn">Visit GitHub</button>
+                </div>
+            </div>
+
+            <div class="rightsection">
+                <img src="bg3.png" alt="img">
+            </div>
+
+        </section>
+        <hr>
+
+
+        <section class="secondsection">
+
+            <h1>About Me</h1>
+            <span class="text-gray">So this is what i have done so far :-</span>
+            <div class="aboutme">
+                <div><span class="text-red">1.&emsp;</span><span class="text-blue"> class </span><span
+                        class="text-yellow">Sahil Kadawla</span> {</div>
+                <div><span class="text-red">2.&emsp;</span><span class="text-gray">···// I can, because I did.</span>
+                </div>
+                <div><span class="text-red">3.&emsp;</span><span class="text-gray">··// Constantly improving my Skill
+                        set.</span></div>
+
+                <div><span class="text-red">4.&emsp;</span><span class="text-gray">··</span><span class="text-blue">
+                        constructor </span>() {</div>
+                <div><span class="text-red">5.&emsp;</span><span class="text-gray">········</span><span
+                        class="text-red">this.</span><span class="text-green">name</span><span class="text-light">=
+                        'Sahil Kadawla"</span></div>
+
+                <div><span class="text-red">6.&emsp;</span><span class="text-gray">········</span><span
+                        class="text-red">this.</span><span class="text-green">email</span><span class="text-light">
+                        = 'sahilkadawla@gmail.com'</span></div>
+                <div><span class="text-red">7.&emsp;</span><span class="text-gray">····</span>}</div>
+                <div><span class="text-red">8.&emsp;</span><span class="text-yellow">education</span> () {</div>
+                <div><span class="text-red">9.&emsp;</span><span class="text-gray">······</span><span
+                        class="text-blue">return</span>[
+                </div>
+                <div><span class="text-red">10.&emsp;</span><span class="text-gray">·········</span>{ <span
+                        class="text-green"> "2008 - 2020 " </span>: <span class="text-green">" Schooling from Green View
+                        Public School Dwarka New Delhi " </span>},</div>
+
+                <div><span class="text-red">11.&emsp;</span><span class="text-gray"> ·········</span>{ <span
+                        class="text-green"> "2021 - NOW " </span>: <span class="text-green">" Joined NSUT Btech. ITNS
+                        Branch " </span>}</div>
+                <div><span class="text-red">12.&emsp;</span><span class="text-gray">······</span>]</div>
+                <div><span class="text-red">13.&emsp;</span><span class="text-gray">···</span>}</div>
+
+        </section>
+        <hr>
+        <section class="thirdsection">
+
+            <h1>Here's a roadmap of my journey...........</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="calendarfinal.png" alt="date">
+                    <div class="vertical-title">Born (2002)</div>
+                    <div class="vertical-desc">
+                        Born in New Delhi, India on 26th july,2002.
+                    </div>
+                </div>
+                <div class="vertical"><img class="image-top" src="school.png" alt="date">
+                    <div class="vertical-title">Childhood</div>
+                    <div class="vertical-desc">
+                        Brought up in Delhi and did all my schooling and education from Delhi itself.
+                    </div>
+                </div>
+                <div class="vertical"><img class="image-top" src="2018.png" alt="date">
+                    <div class="vertical-title">Passed 10th (2018)</div>
+                    <div class="vertical-desc">
+                        Passed 10th standard from Green View Public School, Dwarka Vihar New Delhi from CBSE board
+                        with
+                        95% marks.
+                    </div>
+                </div>
+                <div class="vertical"><img class="image-top" src="2020.png" alt="date">
+                    <div class="vertical-title">Passed 12th (2020)</div>
+                    <div class="vertical-desc">
+                        Passed 12th standard from Green View Public School, Dwarka Vihar New Delhi from CBSE board
+                        with
+                        92% marks.
+                    </div>
+                </div>
+                <div class="vertical"><img class="image-top" src="2021.png" alt="date">
+                    <div class="vertical-title">Joined NSUT (2021)</div>
+                    <div class="vertical-desc">
+                        After completing my school I cracked JEE MAINS exams and got admitted to Netaji Subhash
+                        University of Technology.
+                        Joined as an Btech. student in ITNS branch.
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Sahil's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+
+                    <li>About</li>
+
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-rights">Copyright &#169; www.sahilsportfolio.com | All rights reserved.</div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: [' Student at NSUT Dwarka', ' Passionate Programmer', ' Web Developer. '],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
